@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+
+}
+
+ul.menu {
+    right: 10px;
+    height: min-content;
+    padding-top: 1rem;
+}
+
+ul.menu li {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+nav {
+    padding-inline: 8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 100vw;
+    background-color: #52D1FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    padding-inline: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #007FE1;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#contacto-hero {
+    margin-top: 2rem;
+}
+
+.puntosrecarga {
+    padding-inline: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0FBFF;
+}
+
+.puntosrecarga h2 {
+    margin-inline: auto;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.puntosrecarga span {
+    color: gray;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+.listapuntos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.socio {
+    padding-inline: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: white;
+}
+
+.socio h2 {
+    display: inline-block;
+}
+
+.socio span {
+    color: gray;
+    margin-inline: auto;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sociotexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.listatramite {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+#email {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600rem;
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+#contacto-socio {
+    margin-top: 2rem;
+}
+
+.mercado {
+    padding-inline: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0FBFF;
+}
+
+.mercado h2 {
+    margin-inline: auto;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.mercado span {
+    color: gray;
+    margin-inline: auto;
+    display: inline-block;
+}
+
+#mercadoform {
+    margin-top: 2rem;
+}
+
+#cantidad-puntos {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600rem;
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+.personal {
+    padding-inline: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.personal h2 {
+    margin-inline: auto;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.personal span {
+    color: gray;
+    margin-inline: auto;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.textopersonal h2{
+    margin-inline: auto;
+}
